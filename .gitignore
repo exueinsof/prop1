@@ -1,0 +1,84 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Data directories (large files)
+data/
+*_data/
+pgdata/
+*.db
+*.sqlite3
+
+# Node
+node_modules/
+dist/
+build/
+.next/
+__pycache__/
+
+# Dependencies
+venv/
+env/
+*.egg-info/
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.tar.gz
+*.zip
+*.jar
+*.war
+
+# Logs
+logs/
+*.log
+
+# Temporary
+tmp/
+temp/
+.temp/
+*.tmp
+
+# AI/ML models
+models/**/*.bin
+models/**/*.pt
+models/**/*.pth
+*.ckpt
+
+# Database backups
+*.sql
+*.sql.gz
+
+# Node modules and cache
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
